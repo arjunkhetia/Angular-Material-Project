@@ -33,6 +33,16 @@ import { MatTableModule } from '@angular/material/table';
 import { MatSortModule } from '@angular/material/sort';
 import { MatPaginatorModule } from '@angular/material/paginator';
 
+import { A11yModule } from '@angular/cdk/a11y';
+import { BidiModule } from '@angular/cdk/bidi';
+import { LayoutModule } from '@angular/cdk/layout';
+import { ObserversModule } from '@angular/cdk/observers';
+import { OverlayModule } from '@angular/cdk/overlay';
+import { PortalModule } from '@angular/cdk/portal';
+import { ScrollDispatchModule } from '@angular/cdk/scrolling';
+import { CdkStepperModule } from '@angular/cdk/stepper';
+import { CdkTableModule } from '@angular/cdk/table';
+
 @NgModule({
   imports: [
     MatAutocompleteModule,
@@ -65,7 +75,16 @@ import { MatPaginatorModule } from '@angular/material/paginator';
     MatTooltipModule,
     MatTableModule,
     MatSortModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    A11yModule,
+    BidiModule,
+    LayoutModule,
+    ObserversModule,
+    OverlayModule,
+    PortalModule,
+    ScrollDispatchModule,
+    CdkStepperModule,
+    CdkTableModule
   ],
   exports: [
     MatAutocompleteModule,
@@ -98,7 +117,16 @@ import { MatPaginatorModule } from '@angular/material/paginator';
     MatTooltipModule,
     MatTableModule,
     MatSortModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    A11yModule,
+    BidiModule,
+    LayoutModule,
+    ObserversModule,
+    OverlayModule,
+    PortalModule,
+    ScrollDispatchModule,
+    CdkStepperModule,
+    CdkTableModule
   ]
 })
 
