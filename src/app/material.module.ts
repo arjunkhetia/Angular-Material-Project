@@ -20,12 +20,15 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatListModule } from '@angular/material/list';
 import { MatStepperModule } from '@angular/material/stepper';
 import { MatTabsModule } from '@angular/material/tabs';
+import { MatTreeModule } from '@angular/material/tree';
 import { MatButtonModule } from '@angular/material/button';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { MatBadgeModule } from '@angular/material/badge';
 import { MatChipsModule } from '@angular/material/chips';
 import { MatIconModule } from '@angular/material/icon';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
+import { MatBottomSheetModule } from '@angular/material/bottom-sheet';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatTooltipModule } from '@angular/material/tooltip';
@@ -42,6 +45,7 @@ import { PortalModule } from '@angular/cdk/portal';
 import { ScrollDispatchModule } from '@angular/cdk/scrolling';
 import { CdkStepperModule } from '@angular/cdk/stepper';
 import { CdkTableModule } from '@angular/cdk/table';
+import { CdkTreeModule } from '@angular/cdk/tree';
 
 @NgModule({
   imports: [
@@ -64,12 +68,15 @@ import { CdkTableModule } from '@angular/cdk/table';
     MatListModule,
     MatStepperModule,
     MatTabsModule,
+    MatTreeModule,
     MatButtonModule,
     MatButtonToggleModule,
+    MatBadgeModule,
     MatChipsModule,
     MatIconModule,
     MatProgressSpinnerModule,
     MatProgressBarModule,
+    MatBottomSheetModule,
     MatDialogModule,
     MatSnackBarModule,
     MatTooltipModule,
@@ -84,7 +91,8 @@ import { CdkTableModule } from '@angular/cdk/table';
     PortalModule,
     ScrollDispatchModule,
     CdkStepperModule,
-    CdkTableModule
+    CdkTableModule,
+    CdkTreeModule
   ],
   exports: [
     MatAutocompleteModule,
@@ -106,12 +114,15 @@ import { CdkTableModule } from '@angular/cdk/table';
     MatListModule,
     MatStepperModule,
     MatTabsModule,
+    MatTreeModule,
     MatButtonModule,
     MatButtonToggleModule,
+    MatBadgeModule,
     MatChipsModule,
     MatIconModule,
     MatProgressSpinnerModule,
     MatProgressBarModule,
+    MatBottomSheetModule,
     MatDialogModule,
     MatSnackBarModule,
     MatTooltipModule,
@@ -126,7 +137,8 @@ import { CdkTableModule } from '@angular/cdk/table';
     PortalModule,
     ScrollDispatchModule,
     CdkStepperModule,
-    CdkTableModule
+    CdkTableModule,
+    CdkTreeModule
   ]
 })
 

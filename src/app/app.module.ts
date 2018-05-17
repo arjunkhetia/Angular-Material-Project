@@ -1,6 +1,6 @@
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 
@@ -14,8 +14,8 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserAnimationsModule,
     BrowserModule,
+    BrowserAnimationsModule,
     FormsModule,
     CommonModule,
     MaterialModule
