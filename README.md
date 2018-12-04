@@ -7,7 +7,7 @@
 ![Dependency Status][dependency-image]
 ![devDependencies Status][devdependency-image]
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.3. Also Angular Material and Angular CDK installed and integrated all the material modules.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.1. Also Angular Material and Angular CDK installed and integrated all the material modules.
 
 ## Development server
 
